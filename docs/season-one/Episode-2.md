@@ -33,7 +33,7 @@ Let's dive deeper into how JavaScript runs behind the scenes.
 - If the return value is assigned to a variable, it gets stored in memory.
 - After the function finishes, its execution context is removed (deleted).
 
-![Execution Context Working](https://github.com/alok722/namaste-javascript-notes/blob/master/assets/final_execution_context.jpg?raw=true)
+![Execution Context Working](../../static/img/final_execution_context.jpg)
 
 ---
 ## 🧾 Call Stack
@@ -45,7 +45,7 @@ Let's dive deeper into how JavaScript runs behind the scenes.
 - Once a function completes, its context is popped off the stack.
 - After all code runs, even the global context is popped — that’s when the program ends.
 
-![Call Stack](https://coralogix.com/wp-content/uploads/2021/04/image2-1.png)
+![Call Stack](../../static/img/call_stack.png)
 
 ---
 
