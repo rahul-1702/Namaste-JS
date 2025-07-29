@@ -101,7 +101,7 @@ const config: Config = {
           items: [
             {
               label: "Start Reading",
-              to: "/docs/season-one/Episode-1",
+              to: "/docs/season-one/episode-1",
             },
           ],
         },
