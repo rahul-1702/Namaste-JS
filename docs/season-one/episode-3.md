@@ -64,6 +64,7 @@ var getName = function () {
 
 > `Note:` It's important to understand the distinction between function declarations and function expressions when dealing with hoisting. Function declarations are fully hoisted, while function expressions behave like variables and are hoisted with an initial value of undefined.
 
+---
 
 📺 **Watch Live on YouTube:**  
 Click the image below to watch this episode on Hoisting in JS:

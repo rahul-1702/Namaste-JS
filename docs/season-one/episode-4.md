@@ -58,6 +58,8 @@ function b() {
 
 ![Reference-Image](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*DGoh2eLn6nzskdQb9rHWxQ.jpeg)
 
+---
+
 📺 **Watch Live On YouTube:**  
 Click the image below to watch this episode on how Functions work in Javascript:
 
