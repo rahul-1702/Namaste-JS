@@ -78,11 +78,11 @@ Let's examine a real promise object.
 
 The `fetch` API makes HTTP requests and returns promises.
 
-We'll call the public GitHub API to retrieve data: https://api.github.com/users/rahul-taak
+We'll call the public GitHub API to retrieve data: https://api.github.com/users/rahul-1702
 
 ```js
 // Calling the public GitHub API
-const URL = 'https://api.github.com/users/rahul-taak';
+const URL = 'https://api.github.com/users/rahul-1702';
 const user = fetch(URL);
 // 'user' is now a promise
 console.log(user); // Promise {<Pending>}
@@ -109,7 +109,7 @@ console.log(user); // Promise {<Pending>}
 Now we can attach callbacks to this response using `.then`:
 
 ```js
-const URL = 'https://api.github.com/users/rahul-taak';
+const URL = 'https://api.github.com/users/rahul-1702';
 const user = fetch(URL);
 
 user.then(function (data) {

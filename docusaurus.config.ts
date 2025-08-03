@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://github.com/", // ✅ No sub-path here!,
+  url: "https://github.com/rahul-1702/Namaste-JS", // ✅ No sub-path here!,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/", // ✅ This is the repo name, with trailing slash
@@ -87,11 +87,16 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/rahul-1702/Namaste-JS",
           label: "GitHub",
           position: "right",
         },
       ],
+    },
+    docs: {
+      sidebar: {
+        hideable: true
+      }
     },
     footer: {
       style: "dark",
@@ -131,7 +136,7 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/rahul-1702/Namaste-JS",
             },
           ],
         },
