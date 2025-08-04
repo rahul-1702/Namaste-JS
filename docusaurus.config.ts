@@ -15,14 +15,14 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: "https://github.com/rahul-1702/Namaste-JS", // ✅ No sub-path here!,
+  url: "https://github.com", // ✅ No sub-path here!,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/", // ✅ This is the repo name, with trailing slash
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Rahul-Taak", // Usually your GitHub org/user name.
+  organizationName: "rahul-1702", // Usually your GitHub org/user name.
   projectName: "Namaste-JS", // Usually your repo name.
 
   onBrokenLinks: "throw",
