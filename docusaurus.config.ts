@@ -18,7 +18,7 @@ const config: Config = {
   url: "https://rahul-1702.github.io", // ✅ No sub-path here!,
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/Namaste-JS/", // ✅ This is the repo name, with trailing slash
+  baseUrl: "/", // ✅ This is the repo name, with trailing slash
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
