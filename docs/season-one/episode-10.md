@@ -2,6 +2,7 @@
 sidebar_position: 10
 ---
 
+
 # Episode 10: Closures in JS
 
 ## What is a Closure?

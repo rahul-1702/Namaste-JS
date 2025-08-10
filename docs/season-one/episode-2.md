@@ -2,6 +2,7 @@
 sidebar_position: 2
 ---
 
+
 # Episode 2: How JavaScript Code is executed?
 
 Let's dive deeper into how JavaScript runs behind the scenes.

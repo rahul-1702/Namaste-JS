@@ -1,3 +1,8 @@
+---
+sidebar_position: 15
+---
+
+
 # Episode 15: Asynchronous JavaScript & EVENT LOOP from scratch
 
 :::info Important Note

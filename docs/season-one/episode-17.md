@@ -1,3 +1,8 @@
+---
+sidebar_position: 17
+---
+
+
 # Episode 17: Trust Issues with setTimeout()
 
 :::info Important Note

@@ -2,6 +2,7 @@
 sidebar_position: 3
 ---
 
+
 # Episode 3: Hoisting in JavaScript!
 
 > Note: Everything in this episode is explained intuitively. If you find it difficult to grasp, consider watching Episode 2 first.

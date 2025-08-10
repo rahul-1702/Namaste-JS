@@ -2,6 +2,7 @@
 sidebar_position: 12
 ---
 
+
 # Episode 12: Famous Interview Questions ft. Closures
 
 ## Q1: What is Closure in JavaScript?

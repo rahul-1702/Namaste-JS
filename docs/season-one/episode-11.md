@@ -2,6 +2,7 @@
 sidebar_position: 11
 ---
 
+
 # Episode 11: setTimeout + Closures Interview Question
 
 :::tip Famous Quote

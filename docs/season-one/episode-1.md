@@ -2,6 +2,7 @@
 sidebar_position: 1
 ---
 
+
 # Episode 1: How JavaScript Works!
 
 Let’s break down what happens behind the scenes when JavaScript runs 👇

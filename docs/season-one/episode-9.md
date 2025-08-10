@@ -2,6 +2,7 @@
 sidebar_position: 9
 ---
 
+
 # Episode 9: Block Scope & Shadowing in JS
 
 ## What is a Block?
