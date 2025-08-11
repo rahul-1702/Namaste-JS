@@ -288,8 +288,6 @@ console.log(output); // ["Alok", "Ashish", "Ankit"]
 | **filter** | Select | `[1,2,3,4]` | `[2,4]` | Keep elements matching condition |
 | **reduce** | Aggregate | `[1,2,3,4]` | `10` | Combine all elements to single value |
 
-<!-- ![Methods Comparison Demo](../../static/img/methods_comparison.jpg) -->
-
 ---
 
 📺 **Watch Live On YouTube:**  
