@@ -11,13 +11,9 @@ map, filter & reduce are Higher Order Functions. They are the most powerful and 
 
 These three methods form the foundation of functional programming in JavaScript and are essential tools for array manipulation and data transformation.
 
-<!-- ![Array Methods Overview Demo](../../static/img/array_methods_overview.jpg) -->
-
 ## Map Function
 
 The `map()` method is used to **transform an array**. It creates a new array with the results of calling a function for every array element.
-
-<!-- ![Map Function Demo](../../static/img/map_function.jpg) -->
 
 **Syntax:** `const output = arr.map(function)` 
 - The function parameter tells map what transformation to apply on each element
@@ -74,8 +70,6 @@ const binaryArr = arr.map((x) => x.toString(2));
 console.log(binaryArr); // ["101", "1", "11", "10", "110"]
 ```
 
-<!-- ![Map Transformation Demo](../../static/img/map_transformation.jpg) -->
-
 :::note Map Functionality
 Map function is **mapping** each and every value and **transforming** it based on the given condition. It always returns a new array with the same length as the original array.
 :::
@@ -83,8 +77,6 @@ Map function is **mapping** each and every value and **transforming** it based o
 ## Filter Function
 
 The `filter()` method is used to **filter values inside an array**. It creates a new array consisting of only those elements that satisfy a condition.
-
-<!-- ![Filter Function Demo](../../static/img/filter_function.jpg) -->
 
 ### Filter Examples
 
@@ -105,8 +97,6 @@ const oddArr = array.filter((x) => x % 2);
 console.log(oddArr); // [5, 1, 3]
 ```
 
-<!-- ![Filter Process Demo](../../static/img/filter_process.jpg) -->
-
 :::tip Filter Behavior
 Filter function creates a new array and stores only those values which **evaluate to true** when passed through the condition function. The resulting array length can be different from the original array.
 :::
@@ -114,8 +104,6 @@ Filter function creates a new array and stores only those values which **evaluat
 ## Reduce Function
 
 The `reduce()` method takes all values of an array and **reduces them to a single output**. It's the most powerful and flexible of the three methods.
-
-<!-- ![Reduce Function Demo](../../static/img/reduce_function.jpg) -->
 
 ### Reduce Examples
 
@@ -181,8 +169,6 @@ const output = array.reduce((max, current) => {
 console.log(output); // 6
 ```
 
-<!-- ![Reduce Process Demo](../../static/img/reduce_process.jpg) -->
-
 :::note Reduce Parameters
 - **Accumulator**: The accumulated result from previous iterations
 - **Current**: The current element being processed
@@ -192,8 +178,6 @@ console.log(output); // 6
 ## Advanced Examples with Complex Data
 
 Let's work with more complex data structures to understand the power of these methods:
-
-<!-- ![Complex Data Demo](../../static/img/complex_data.jpg) -->
 
 ```javascript
 const users = [
@@ -229,13 +213,10 @@ const report = users.reduce((acc, curr) => {
 console.log(report); // {23: 1, 29: 2, 50: 1}
 ```
 
-<!-- ![Data Aggregation Demo](../../static/img/data_aggregation.jpg) -->
 
 ## Function Chaining
 
 One of the most powerful features is the ability to **chain** these methods together:
-
-<!-- ![Function Chaining Demo](../../static/img/function_chaining.jpg) -->
 
 ```javascript
 // Get first names of all people whose age is less than 30
@@ -265,8 +246,6 @@ console.log(output); // ["Alok", "Ashish", "Ankit"]
 ```
 
 ### Chaining Benefits
-
-<!-- ![Chaining Benefits Demo](../../static/img/chaining_benefits.jpg) -->
 
 - **Readability**: Code reads like natural language
 - **Modularity**: Each method has a single responsibility
