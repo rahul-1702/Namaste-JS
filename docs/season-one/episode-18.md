@@ -11,8 +11,6 @@ Higher-order functions are regular functions that take one or more functions as 
 
 Higher-order functions enable us to write more modular, reusable, and elegant code by treating functions as first-class citizens in JavaScript.
 
-<!-- ![Higher Order Functions Demo](../../static/img/hof_intro.jpg) -->
-
 ## What is a Higher-Order Function?
 
 A Higher-Order Function (HOF) is a function that either:
@@ -36,16 +34,12 @@ y(x); // Output: Hi
 // x is a callback function
 ```
 
-<!-- ![HOF Basic Example Demo](../../static/img/hof_basic.jpg) -->
-
 ## Problem-Solving Approach: From Imperative to Functional
 
 Let's understand how to approach problems using functional programming principles through a practical example.
 
 ### The Problem
 We have an array of radius values and need to calculate areas using these radius values and store them in an array.
-
-<!-- ![Problem Statement Demo](../../static/img/problem_statement.jpg) -->
 
 ### First Approach: Imperative Style
 
@@ -85,8 +79,6 @@ const calculateCircumference = function (radius) {
 console.log(calculateCircumference(radius));
 ```
 
-<!-- ![Code Duplication Demo](../../static/img/code_duplication.jpg) -->
-
 :::warning DRY Principle Violation
 We are violating the **DRY (Don't Repeat Yourself)** principle. The loop structure and array manipulation logic are identical - only the mathematical operation changes.
 :::
@@ -121,8 +113,6 @@ console.log(calculate(radiusArr, area));
 console.log(calculate(radiusArr, circumference));
 ```
 
-<!-- ![Functional Approach Demo](../../static/img/functional_approach.jpg) -->
-
 ### Benefits of This Approach
 
 - **calculate** is our Higher-Order Function
@@ -137,8 +127,6 @@ We've separated the **what** (mathematical operations) from the **how** (iterati
 ## Understanding the Map Connection
 
 Our `calculate` function is essentially a **polyfill of the map function**:
-
-<!-- ![Map Connection Demo](../../static/img/map_connection.jpg) -->
 
 ```javascript
 // These two lines produce the same result:
@@ -167,8 +155,6 @@ console.log(radiusArr.calculate(area));
 console.log(radiusArr.calculate(circumference));
 ```
 
-<!-- ![Custom Map Demo](../../static/img/custom_map.jpg) -->
-
 :::note Polyfill Understanding
 This implementation is essentially a **polyfill for the map function**. A polyfill provides functionality that may not be available in older browsers by implementing it manually.
 :::
@@ -176,8 +162,6 @@ This implementation is essentially a **polyfill for the map function**. A polyfi
 ## Higher-Order Functions in Practice
 
 Higher-order functions are everywhere in JavaScript:
-
-<!-- ![HOF Examples Demo](../../static/img/hof_examples.jpg) -->
 
 **Common Higher-Order Functions:**
 - `Array.prototype.map()`
@@ -190,8 +174,6 @@ Higher-order functions are everywhere in JavaScript:
 ## Functional Programming Principles
 
 This episode demonstrates key functional programming concepts:
-
-<!-- ![FP Principles Demo](../../static/img/fp_principles.jpg) -->
 
 ### 1. **First-Class Functions**
 Functions are treated as values - they can be assigned to variables, passed as arguments, and returned from other functions.
@@ -208,8 +190,6 @@ Building complex operations by combining simpler functions.
 ## Real-World Applications
 
 Higher-order functions enable powerful patterns:
-
-<!-- ![Real World Applications Demo](../../static/img/realworld_hof.jpg) -->
 
 - **Data Transformation**: Processing arrays of objects
 - **Event Handling**: Callback functions for user interactions
