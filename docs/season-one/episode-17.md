@@ -13,8 +13,6 @@ The setTimeout function is one of the most commonly used Web APIs in JavaScript,
 
 Let's examine this fundamental issue with a detailed code example and understand why it happens.
 
-<!-- ![setTimeout Issue Demo](../../static/img/settimeout_issue.jpg) -->
-
 ## The setTimeout Trust Issue
 
 Consider the following code and observe its behavior:
@@ -60,13 +58,9 @@ While the call stack is busy executing code, the 5-second timer continues runnin
 11. **Though setTimeout was set for 5 seconds, it waits for 10 seconds** until the call stack becomes empty
 12. Only when GEC is popped after 10 seconds, `cb()` is finally pushed to call stack and executed immediately
 
-<!-- ![setTimeout Wait Demo](../../static/img/settimeout_wait.jpg) -->
-
 ## The Concurrency Model
 
 This behavior is part of JavaScript's **[Concurrency Model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)**. This is the fundamental logic behind setTimeout's "trust issues."
-
-<!-- ![Concurrency Model Demo](../../static/img/concurrency_model.jpg) -->
 
 :::warning The Golden Rule of JavaScript
 **Do not block the main thread** - JavaScript is a single-threaded language with only one call stack. Blocking operations can severely impact performance and user experience.
@@ -76,8 +70,6 @@ This behavior is part of JavaScript's **[Concurrency Model](https://developer.mo
 
 In the example below, we demonstrate how blocking the main thread affects setTimeout behavior:
 
-<!-- ![Main Thread Blocking Demo](../../static/img/blocked_thread.jpg) -->
-
 **Key Observations:**
 - setTimeout guarantees that it will take **at least** the given timer duration to execute the code
 - It does **not** guarantee exact timing
@@ -86,8 +78,6 @@ In the example below, we demonstrate how blocking the main thread affects setTim
 ## Understanding JavaScript's Nature
 
 JavaScript is a **synchronous, single-threaded language** with unique characteristics:
-
-<!-- ![JS Thread Model Demo](../../static/img/js_thread_model.jpg) -->
 
 - **Single Thread**: Runs all pieces of code with just one thread
 - **Interpreter-like**: Runs code very fast inside browsers without waiting for compilation
@@ -111,8 +101,6 @@ console.log('End');
 // Output: Start End Callback
 ```
 
-<!-- ![Zero Timeout Demo](../../static/img/zero_timeout.jpg) -->
-
 :::tip Practical Use Case
 Setting `setTimeout` with 0ms can be used to **defer a less important function** slightly, allowing more important functions to execute first. This is a common pattern for managing execution priority.
 :::
@@ -120,8 +108,6 @@ Setting `setTimeout` with 0ms can be used to **defer a less important function**
 ## setTimeout Execution Guarantees
 
 Understanding what setTimeout actually promises:
-
-<!-- ![setTimeout Guarantees Demo](../../static/img/settimeout_guarantees.jpg) -->
 
 **What setTimeout Guarantees:**
 - ✅ Callback will execute **at least** after the specified delay
@@ -135,8 +121,6 @@ Understanding what setTimeout actually promises:
 ## Real-World Implications
 
 This behavior has important implications for real-world applications:
-
-<!-- ![Real World Impact Demo](../../static/img/realworld_impact.jpg) -->
 
 - **Performance**: Long-running synchronous code blocks setTimeout execution
 - **User Experience**: UI updates and animations can be delayed
