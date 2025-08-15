@@ -40,8 +40,6 @@ Code inside JavaScript Engine passes through 3 main steps: **Parsing**, **Compil
 
 During parsing, code is broken down into tokens and converted into an Abstract Syntax Tree (AST).
 
-<!-- ![Parsing Demo](../../static/img/parsing.jpg) -->
-
 - **Tokenization**: In `let a = 7`, the tokens are: `let`, `a`, `=`, `7`
 - **Syntax Parser**: Takes code and converts it into an AST (Abstract Syntax Tree)
 - **AST**: A JSON-like structure with all key values like type, start, end, body etc.
@@ -53,8 +51,6 @@ You can visualize how your code gets converted into AST at astexplorer.net - it 
 ### 2. Compilation
 
 JavaScript uses **Just-in-Time (JIT) Compilation** - a hybrid approach that uses both interpreter and compiler.
-
-<!-- ![Compilation Demo](../../static/img/compilation.jpg) -->
 
 **Key Points about JavaScript Compilation:**
 - Compilation and execution go hand in hand
@@ -70,8 +66,6 @@ The answer is a loud **YES**. JavaScript is now a JIT compiled language - it's t
 
 Execution requires 2 main components:
 
-<!-- ![Execution Demo](../../static/img/execution.jpg) -->
-
 - **Memory Heap**: Place where all memory is stored and allocated
 - **Call Stack**: Same call stack we learned about in previous episodes
 - **Garbage Collector**: Uses an algorithm called **Mark and Sweep** to clean up unused memory
@@ -80,8 +74,6 @@ Execution requires 2 main components:
 
 Different companies use different JavaScript engines, each trying to make theirs the best and fastest.
 
-<!-- ![V8 Architecture Demo](../../static/img/v8arch.jpg) -->
-
 **Google's V8 Engine Components:**
 - **Ignition**: The interpreter component
 - **TurboFan**: The optimizing compiler
@@ -89,13 +81,9 @@ Different companies use different JavaScript engines, each trying to make theirs
 
 The V8 engine follows the same three-phase approach but with highly optimized implementations of each component.
 
-<!-- ![V8 Execution Flow Demo](../../static/img/v8flow.jpg) -->
-
 ## How Different Engines Compete
 
 Companies continuously work to make their JavaScript engines faster and more efficient:
-
-<!-- ![Engine Competition Demo](../../static/img/enginecomp.jpg) -->
 
 - Each engine has its own unique optimizations
 - V8 is known for its speed and optimization techniques
@@ -105,8 +93,6 @@ Companies continuously work to make their JavaScript engines faster and more eff
 ## Memory Management and Garbage Collection
 
 The **Mark and Sweep** algorithm used by garbage collectors works in two phases:
-
-<!-- ![Garbage Collection Demo](../../static/img/garbagecollect.jpg) -->
 
 1. **Mark Phase**: Identifies which objects are still reachable/in use
 2. **Sweep Phase**: Removes objects that are no longer needed, freeing up memory
