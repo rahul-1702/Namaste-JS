@@ -181,20 +181,20 @@ Let's work with more complex data structures to understand the power of these me
 
 ```javascript
 const users = [
-  { firstName: "Alok", lastName: "Raj", age: 23 },
-  { firstName: "Ashish", lastName: "Kumar", age: 29 },
-  { firstName: "Ankit", lastName: "Roy", age: 29 },
-  { firstName: "Pranav", lastName: "Mukherjee", age: 50 },
+  { firstName: "Rahul", lastName: "Dev", age: 23 },
+  { firstName: "Manpreet", lastName: "Rana", age: 29 },
+  { firstName: "My", lastName: "Doraemon", age: 29 },
+  { firstName: "Jaspreet", lastName: "Singh", age: 50 },
 ];
 ```
 
 ### Map with Objects: Get Full Names
 
 ```javascript
-// Get array of full names: ["Alok Raj", "Ashish Kumar", ...]
+// Get array of full names: ["Rahul Dev", "Manpreet Rana", ...]
 const fullNameArr = users.map((user) => user.firstName + " " + user.lastName);
 console.log(fullNameArr);
-// Output: ["Alok Raj", "Ashish Kumar", "Ankit Roy", "Pranav Mukherjee"]
+// Output: ["Rahul Dev", "Manpreet Rana", "My Doraemon", "Jaspreet Singh"]
 ```
 
 ### Reduce for Data Aggregation
@@ -221,10 +221,10 @@ One of the most powerful features is the ability to **chain** these methods toge
 ```javascript
 // Get first names of all people whose age is less than 30
 const users = [
-  { firstName: 'Alok', lastName: 'Raj', age: 23 },
-  { firstName: 'Ashish', lastName: 'Kumar', age: 29 },
-  { firstName: 'Ankit', lastName: 'Roy', age: 29 },
-  { firstName: 'Pranav', lastName: 'Mukherjee', age: 50 },
+  { firstName: "Rahul", lastName: "Dev", age: 23 },
+  { firstName: "Manpreet", lastName: "Rana", age: 29 },
+  { firstName: "My", lastName: "Doraemon", age: 29 },
+  { firstName: "Jaspreet", lastName: "Singh", age: 50 },
 ];
 
 // Method 1: Function chaining with filter and map
@@ -232,7 +232,7 @@ const output = users
   .filter((user) => user.age < 30)    // Filter users under 30
   .map((user) => user.firstName);     // Extract first names
 
-console.log(output); // ["Alok", "Ashish", "Ankit"]
+console.log(output); // ["Rahul", "Manpreet", "My"]
 
 // Method 2: Using only reduce (homework challenge solution)
 const output = users.reduce((acc, curr) => {
@@ -242,7 +242,7 @@ const output = users.reduce((acc, curr) => {
   return acc;
 }, []);
 
-console.log(output); // ["Alok", "Ashish", "Ankit"]
+console.log(output); // ["Rahul", "Manpreet", "My"]
 ```
 
 ### Chaining Benefits
