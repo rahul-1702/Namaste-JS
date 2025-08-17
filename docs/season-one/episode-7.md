@@ -101,6 +101,9 @@ a() = [b:10, c:{}, [lexical environment pointer → GEC]]
 GEC = [a:{}, [lexical environment pointer → null]]
 ```
 
+![Lexical Scope Explaination](../../static/img/lexical1.jpg 'Lexical Scope')
+![Lexical Scope Explaination](../../static/img/lexical2.jpg 'Lexical Scope')
+
 ## What is Lexical Environment?
 
 ### Definition:

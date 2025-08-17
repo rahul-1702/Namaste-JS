@@ -104,6 +104,8 @@ The two `b` variables exist in **separate memory spaces**:
 
 Since they're in different memory spaces, they don't interfere with each other.
 
+![Block Scope Explaination](../../static/img/scope.jpg 'Lexical Scope')
+
 ## Shadowing in Functions
 
 The same shadowing principles apply to functions:

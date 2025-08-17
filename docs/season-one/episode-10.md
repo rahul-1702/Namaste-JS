@@ -100,6 +100,8 @@ console.log(counter1()); // 3
 
 Each counter maintains its own `count` variable through closure!
 
+![Closure Explaination](../../static/img/closure.jpg 'Closure')
+
 ## Advantages of Closures
 
 ### 1. **Module Design Pattern**
