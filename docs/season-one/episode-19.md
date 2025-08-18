@@ -2,7 +2,6 @@
 sidebar_position: 19
 ---
 
-
 # Episode 19: map, filter & reduce
 
 :::info Important Note

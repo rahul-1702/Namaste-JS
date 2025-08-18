@@ -2,7 +2,6 @@
 sidebar_position: 18
 ---
 
-
 # Episode 18: Higher-Order Functions ft. Functional Programming
 
 :::info Important Note
