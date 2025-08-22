@@ -16,6 +16,7 @@ promise.then(function (orderId) {
   proceedToPayment(orderId);
 });
 
+
 // We've seen this pattern in our previous lesson
 // Now let's explore how createOrder is implemented to return a promise
 // In other words, let's learn "How to create a Promise" and return it
