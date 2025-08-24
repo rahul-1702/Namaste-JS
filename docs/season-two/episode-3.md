@@ -2,7 +2,6 @@
 sidebar_position: 3
 ---
 
-
 # Episode 3: Creating a Promise, Chaining & Error Handling
 
 ```js
