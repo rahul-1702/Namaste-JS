@@ -21,6 +21,7 @@ Understanding these callback problems is crucial for mastering Promises in our n
 JavaScript operates as a synchronous, single-threaded language. It can only execute one task at a time using a single call-stack. The JavaScript engine processes code immediately without waiting.
 :::
 
+
 ```js
 console.log('Namaste');
 console.log('JavaScript');
