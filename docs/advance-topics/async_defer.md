@@ -3,5 +3,5 @@ sidebar_position: 1
 ---
 
 
-# Async vs Defer 
+# Async vs Defer - Docs
 
