@@ -41,3 +41,4 @@ When including JavaScript files in HTML, the `async` and `defer` attributes cont
 - Use `async` for scripts that do not depend on other scripts or the DOM.
 - Use `defer` for scripts that need the DOM to be fully loaded or must run in order.
 
+## Async vs Defer
