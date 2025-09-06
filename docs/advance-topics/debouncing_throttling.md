@@ -78,4 +78,4 @@ window.addEventListener('scroll', throttle(() => {
 📺 **Watch Live on YouTube:**   
 Click the image below to watch this episode on Debouncing vs Throttling:
 
-[![Execution Context Youtube Link](https://i.ytimg.com/vi/tJhA0DrH5co/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBF5nFhz_s8WCAJ1a0qcb0zLwzYYQ)](https://youtu.be/tJhA0DrH5co?si=IDqNkwqJrEVKLbMa)
+[![Debouncing vs Throttling Youtube Link](https://i.ytimg.com/vi/tJhA0DrH5co/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBF5nFhz_s8WCAJ1a0qcb0zLwzYYQ)](https://youtu.be/tJhA0DrH5co?si=IDqNkwqJrEVKLbMa)

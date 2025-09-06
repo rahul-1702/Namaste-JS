@@ -47,4 +47,4 @@ When including JavaScript files in HTML, the `async` and `defer` attributes cont
 📺 **Watch Live on YouTube:**   
 Click the image below to watch this episode on Async Defer:
 
-[![Execution Context Youtube Link](https://i.ytimg.com/vi/IrHmpdORLu8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFXy8WgM03obXMFS9HhuHZ_3wDGg)](https://youtu.be/IrHmpdORLu8?si=jsI9_7K0ruucE7jq)
+[![Async Defer Youtube Link](https://i.ytimg.com/vi/IrHmpdORLu8/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCFXy8WgM03obXMFS9HhuHZ_3wDGg)](https://youtu.be/IrHmpdORLu8?si=jsI9_7K0ruucE7jq)

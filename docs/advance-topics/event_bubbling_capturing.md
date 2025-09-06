@@ -89,4 +89,4 @@ document.getElementById('child').addEventListener('click', (event) => {
 📺 **Watch Live on YouTube:**   
 Click the image below to watch this episode on Event bubbling and capturing:
 
-[![Execution Context Youtube Link](https://i.ytimg.com/vi/aVSf0b1jVKk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBLm_4dahpXhH8kqPiuJgAfoOyB6Q)](https://youtu.be/aVSf0b1jVKk?si=aCaH2bV8Ej5nYzcf)
+[![Event Bubbling and Capturing Youtube Link](https://i.ytimg.com/vi/aVSf0b1jVKk/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLBLm_4dahpXhH8kqPiuJgAfoOyB6Q)](https://youtu.be/aVSf0b1jVKk?si=aCaH2bV8Ej5nYzcf)
